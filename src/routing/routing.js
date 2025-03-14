@@ -17,7 +17,7 @@ const routing = () => {
       <Routes> 
             
         <Route path='/' element={<Home />}/>
-        <Route path='/otakudesu/anime/:id' element={<Detail />}/>
+        <Route path='/anime/:id' element={<Detail />}/>
         <Route path='/search/anime/:id' element={<SearchAnime />}/>
         <Route path='/manga' element={<Manga />}/>
         <Route path='*' element={<Navigate to='/'/>}/>
