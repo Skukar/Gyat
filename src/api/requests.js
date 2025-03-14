@@ -6,7 +6,7 @@ const requests = {
 
     getAnimeGenres: '/otakudesu/genres',
 
-    getAnimeById: (animeId) => `/otakudesu/anime/${animeId}`,
+    getAnimeById: (id) => `/otakudesu/anime`,
 
     getAnimeCharacter: (id) => `/anime/${id}/characters`,
     getAnimeEpisode: (id) => `/anime/${id}/episodes`,
