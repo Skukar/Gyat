@@ -4,9 +4,9 @@ const requests = {
     // getUpcomingAnime: 'seasons/upcoming',
     // getTopAiringAnime: '/top/anime?filter=airing',
 
-    getAnimeGenres: '/genres/anime',
+    getAnimeGenres: '/otakudesu/genres',
 
-    getAnimeById: (id) => `/anime/${id}`,
+    getAnimeById: (animeId) => `/otakudesu/anime/${animeId}`,
 
     getAnimeCharacter: (id) => `/anime/${id}/characters`,
     getAnimeEpisode: (id) => `/anime/${id}/episodes`,
